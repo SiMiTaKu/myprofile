@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+html{
+  font-family: sans-serif;
+}
+
+head{
+}
+
+body{
+  background: url("prof.jpg") no-repeat center;
+  background-size: cover;
+}
+
+h1{
+  color: #ff5555;
+  font-size: 30px;
+  border-bottom: 3px dotted #3f5170;
+  margin: 30px 0;
+  background-color: rgba(200,100,200,0.5);
+  text-align: center;
+}
+
+h2{
+  color: #eeee55;
+  font-size: 22px;
+  border-bottom: 3px dotted #3f5170;
+  margin: 20px 0;
+  background-color: rgba(200,200,100,0.5);
+}
+
+p{
+  color: #ffffdd;
+  line-height:1.7;
+  margin-left: 20px;
+  width:80%;
+}
+
+.top{
+  display:flex;
+}
+
+.face{
+  text-align: center;
+}
+
+.face img{
+  width: 300px;
+  border-radius: 50%;
+}
+
+
+.site{
+  display: flex;
+  list-style-type: none;
+}
+
+.site li{
+  margin-right:15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+div{
+  color: #ffaaff;
+}
+
+.profile ul{
+  color: #ffffdd;
+}
+
+ul{
+  margin-left: 0;
+}
+
+li{
+  margin-left: 0;
+}
+
+.comment ul {
+     overflow: hidden;
+}
+
+.comment li{
+  list-style: none;
+  width:46%;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top:20px;
+  margin-right:2%;
+}
+
+li p{
+  width:100%;
+  display :block;
+  margin:10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+li video{
+  width:90%;
+  display: block;
+  margin:10px;
+}
